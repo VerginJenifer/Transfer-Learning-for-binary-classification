@@ -9,15 +9,16 @@ To Implement Transfer Learning for Horses_vs_humans dataset classification using
 
 ## DESIGN STEPS
 ### STEP 1:
-</br>
+Load the pre-trained InceptionV3 model, freeze its layers, and prepare the horse and human datasets.
 
 ### STEP 2:
-</br>
+Add custom layers for binary classification, then compile the model with the RMSprop optimizer.
+
 
 ### STEP 3:
 
-Write your own steps
-<br/>
+Train the model using augmented data, apply early stopping, and plot training/validation accuracy and loss.
+
 
 ## PROGRAM
 Include your code here
@@ -189,6 +190,4 @@ Include your plot here
 ![image](https://github.com/user-attachments/assets/b5cd8851-a1b3-4587-802d-951f65cadce4)
 
 ## RESULT
-</br>
-</br>
-</br>
+Thus, Implementation of Transfer Learning for Horses_vs_humans dataset classification using InceptionV3 architecture, was successful.
